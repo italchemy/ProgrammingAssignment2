@@ -16,7 +16,8 @@
 ##
 ## get - returns the wrapped matrix
 ## set - sets the value of the matrix
-## inverse
+## getInverse - returns the inverse of the wrapped matrix, i.e. the matrix such that M*M-1 = I
+## setInverse - sets the inverse of the wrapped matrix
 ##
 makeCacheMatrix <- function(x = matrix()) {
 
