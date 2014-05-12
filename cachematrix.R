@@ -51,7 +51,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Solves for the inverse of the provided matrix. 
+## cacheSolve - Solves for the inverse of the provided matrix. 
 ##
 ## Parameters:
 ##
