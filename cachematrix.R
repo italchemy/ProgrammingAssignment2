@@ -69,9 +69,8 @@ cacheSolve <- function(x, ...) {
     # We didn't get a cache hit so solve for the inverse and cache the result
     
     m <- x$get()
-    i <- solve(m)
-    x$setInverse(i)
-    inverse <- i
+    inverse <- solve(m)
+    x$setInverse(inverse)
     
   }
   
